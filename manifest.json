@@ -1,0 +1,34 @@
+{
+  "name": "Bluekendi Apps",
+  "short_name": "Bluekendi Apps",
+  "theme_color": "#0582BE",
+  "background_color": "#0582BE",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icons/AppIcon60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/AppIcon60x60.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/AppIcon60x60.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "permissions": {
+    "audio-capture": {
+      "description": "Required to capture audio using getUserMedia()"
+    },
+    "video-capture": {
+      "description": "Required to capture video using getUserMedia()"
+    }
+  }
+}
